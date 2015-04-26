@@ -7,7 +7,7 @@
  * Released under the MIT license
  */
 
-;(function( window, document, undefined ) {
+;(function() {
 
     var ss = window.ss || {},
 
@@ -1864,4 +1864,4 @@ if (typeof define !== 'undefined') {
   throw new Error('Can\'t export Simple Ajax Uploader.');
 }
 
-})( window, document );
+})();
